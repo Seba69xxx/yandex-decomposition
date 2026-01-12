@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * Отображает рекламный блок или ссылку на сервис с изображением и описанием.
+ */
 const Marketing = ({ img, title, text, link }) => {
   return (
     <div style={{ width: '150px', marginLeft: 'auto' }}>

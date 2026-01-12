@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * Отображает один элемент новостного списка с иконкой и ссылкой.
+ */
 const NewsItem = ({ icon, text, link }) => {
   return (
     <div style={{ display: 'flex', gap: '10px', marginBottom: '5px', alignItems: 'center' }}>

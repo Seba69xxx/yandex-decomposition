@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * Компонент для отображения погоды с иконкой и температурой.
+ */
 export const WeatherContent = ({ icon, temp, text }) => (
   <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
     <span>{icon}</span>
@@ -8,6 +11,9 @@ export const WeatherContent = ({ icon, temp, text }) => (
   </div>
 );
 
+/**
+ * Компонент для отображения одной строки телепрограммы.
+ */
 export const ProgramItem = ({ time, name, channel }) => (
   <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '5px' }}>
     <span>{time}</span>

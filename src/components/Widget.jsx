@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * Универсальный компонент-обертка для виджетов, принимающий заголовок и children.
+ */
 const Widget = ({ title, children }) => {
   return (
     <div style={{ marginBottom: '20px' }}>

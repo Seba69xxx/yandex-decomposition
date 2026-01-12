@@ -1,6 +1,9 @@
 import React from 'react';
 import NewsItem from './NewsItem';
 
+/**
+ * Блок новостей, управляющий отображением вкладок, списка новостей и курсов валют.
+ */
 const NewsBlock = ({ tabs, news, rates }) => {
   return (
     <div className="news-block" style={{ marginBottom: '20px' }}>

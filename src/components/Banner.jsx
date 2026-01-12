@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * Отображает рекламный баннер под строкой поиска.
+ */
 const Banner = ({ img, link }) => {
   return (
     <div style={{ margin: '20px 0' }}>
